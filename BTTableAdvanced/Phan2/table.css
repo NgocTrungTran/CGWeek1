@@ -1,0 +1,44 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+table {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    border-collapse: collapse;
+}
+caption {
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+#mon, #tue, #wed, #thu, #fri {
+    background-color: orange;
+    color: white;
+}
+#sat {
+    background-color: blue;
+    color: white;
+}
+
+#sun {
+    background-color: red;
+    color: white;
+}
+.tb {
+    border: groove 3px #dddddd;
+    width: 60px;
+    height: 30px;
+}
+span {
+    font-size: 11px;
+    position: relative;
+    top: 3px
+}
+#blue {
+    color: blue;
+}
+#red {
+    color: red;
+}
