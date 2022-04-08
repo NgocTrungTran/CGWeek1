@@ -1,0 +1,11 @@
+caption {
+    font-weight: bolder;
+    font-size: large;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: solid;
+    border: 1px solid #615d5d;
+}
