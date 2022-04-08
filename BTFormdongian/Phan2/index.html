@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormSimple2</title>
+<style>
+    table {
+        border-style: solid;
+        background-color: yellow;
+    }
+    label {
+        color: blue;
+    }
+</style>
+</head>
+<body>
+    <form action="index.html"></form>
+            
+        <table>
+            <caption style="background-color: paleturquoise; color: blue; text-align: left;">ĐĂNG KÝ HỌC VIÊN</caption>
+        
+            <tr>
+                <td><label for="yn">Họ và tên</label></td>
+                <td><input type="text" name="Yourname" id="yn"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Ngày sinh</label></td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label>Giới tính</label></td>
+                <td><label style="color: black;"><input type="radio" value="Male">Nam</label>
+                    <label style="color: black;"><input type="radio" value="Female">Nữ</label><br></td>
+            </tr>
+            <tr>
+                <td><label for="dc">Địa chỉ</label></td>
+                <td><input type="text" style="padding: 20px 5px" id="dc"></td>
+            </tr>    
+            <tr>
+                <td><label>Lớp</label></td>
+                <td><select name="class">
+                    <option value="CL">-Chọn lớp-</option>
+                    <option value="LA">Lớp A</option>
+                    <option value="LB">Lớp B</option>
+                    <option value="LC">Lớp C</option>
+                    <option value="LD">Lớp D</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="em">Email</label></td>
+                <td><input type="email" name="email" id="em" required></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Điện thoại</label></td>
+                <td><input type="tel" name="telephone" id="tel" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="signup" id="dk" value="Đăng ký">
+                    <input type="submit" name="reset" id="nl" value="Nhập lại"></td>
+             </tr>
+        </table>
+    </form>
+</body>
+</html>
+
