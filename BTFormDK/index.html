@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form Dang Ky</title>
+    <link rel="stylesheet" href="DK.css">
+</head>
+<body>
+    <form action="http://demo.codegym.vn/6/registration_form/register.php" method="post">
+        <div>
+            <label for="name">Họ và tên:</Label><br>
+                <input type="text" id="name">
+        </div>
+        <div>
+            <label for="email">Email:</Label><br>
+                <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="tel">Số điện thoại:</Label><br>
+                <input type="tel" id="tel" name="phone">
+        </div>
+        <div>
+            <label>Giới tính:</label><br>
+            <label for="Male"><input type="radio" name="Gender" id="Male">Nam</label>
+            <label for="Female"><input type="radio" name="Gender" id="Female">Nữ</label>
+        </div>
+            <input type="submit" value="Đăng ký"/>
+    </form>
+</body>
+</html>
